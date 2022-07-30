@@ -19,7 +19,7 @@ class _DisplayState extends State<Display> {
  
 Future fetch() async{
   http.Response response;
-  response = await http.get(Uri.parse("https://script.google.com/macros/s/AKfycbwhbpF4ZxuMUcTZZvObAqvE1pAbEfPt7gZHRV1vVp8PuKt39-ouOm-kQJ1U1LtlEwV-/exec"));
+  response = await http.get(Uri.parse("your url here"));
   if( response.statusCode == 200){
   if(mounted){
       setState(() {
