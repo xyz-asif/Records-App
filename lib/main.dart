@@ -198,7 +198,7 @@ your credentials here
 
 ''';
 
-static final id = '13caD5_ljQlwU3-VbbUeKSo-HnzrmEdfRXkhAWNAHitM';
+static final id = 'your google sheets id';
 static final gsheets = GSheets(credentials);
 static Worksheet? us;
 
